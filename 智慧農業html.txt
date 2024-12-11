@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智慧農業</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 基本樣式設計 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .section {
+            padding: 60px;
+            text-align: center;
+        }
+        .cta-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>智慧農業</h1>
+        <p>讓我們一起打造未來的農業</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">關於我們</a>
+        <a href="#technologies">智慧農業技術</a>
+        <a href="#cases">成功案例</a>
+        <a href="#resources">資源中心</a>
+        <a href="#contact">聯繫我們</a>
+    </nav>
+
+    <!-- 主頁內容 -->
+    <section id="home" class="section">
+        <h2>迎接智慧農業的未來</h2>
+        <p>智慧農業結合了最新的科技，如物聯網、大數據、AI等技術，為農民提供高效、可持續的農業解決方案。</p>
+        <a href="#technologies" class="cta-btn">了解更多</a>
+    </section>
+
+    <!-- 關於我們 -->
+    <section id="about" class="section">
+        <h2>關於我們</h2>
+        <p>我們致力於將最新科技引入農業，幫助農民提高生產力，減少資源浪費，實現可持續發展。</p>
+        <p>我們的團隊由來自不同領域的專業人士組成，擁有豐富的智慧農業經驗。</p>
+    </section>
+
+    <!-- 智慧農業技術 -->
+    <section id="technologies" class="section" style="background-color: #e4e4e4;">
+        <h2>智慧農業技術</h2>
+        <h3>物聯網（IoT）技術</h3>
+        <p>利用感測器實時監控農田的溫度、濕度、土壤狀況等，實現精準的農業管理。</p>
+
+        <h3>大數據與人工智能</h3>
+        <p>通過數據分析和AI技術，預測作物生長情況、病蟲害發生，並提供精準決策。</p>
+
+        <h3>無人機（UAV）技術</h3>
+        <p>無人機可用於空中拍攝農田影像，進行作物監控和精準噴灑農藥。</p>
+
+        <h3>精準灌溉與施肥</h3>
+        <p>利用感測器技術實現精確灌溉和施肥，節約水資源和化肥。</p>
+
+        <a href="#cases" class="cta-btn">查看成功案例</a>
+    </section>
+
+    <!-- 成功案例 -->
+    <section id="cases" class="section">
+        <h2>成功案例</h2>
+        <p>以下是我們成功應用智慧農業技術的部分案例：</p>
+        <ul>
+            <li>某農場利用IoT技術實現了精準灌溉，節省了30%的水資源。</li>
+            <li>使用無人機進行病蟲害監測，減少了20%的農藥使用。</li>
+            <li>大數據分析預測作物生長情況，增加了15%的產量。</li>
+        </ul>
+        <a href="#resources" class="cta-btn">閱讀更多資源</a>
+    </section>
+
+    <!-- 資源中心 -->
+    <section id="resources" class="section" style="background-color: #e4e4e4;">
+        <h2>資源中心</h2>
+        <h3>研究報告與白皮書</h3>
+        <p>提供最新的智慧農業研究報告和技術白皮書，幫助您了解行業的最新發展。</p>
+
+        <h3>視頻教程</h3>
+        <p>通過視頻教程學習如何使用智慧農業技術來提高農業生產效率。</p>
+
+        <h3>常見問題</h3>
+        <p>解答您對智慧農業技術的常見疑問，幫助您快速入門。</p>
+
+        <a href="#contact" class="cta-btn">聯繫我們</a>
+    </section>
+
+    <!-- 聯繫我們 -->
+    <section id="contact" class="section">
+        <h2>聯繫我們</h2>
+        <p>有任何問題或合作需求，請隨時與我們聯繫。</p>
+        <form action="#">
+            <input type="text" placeholder="您的名字" required><br>
+            <input type="email" placeholder="您的電子郵件" required><br>
+            <textarea placeholder="留言內容" required></textarea><br>
+            <button type="submit" class="cta-btn">發送訊息</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 智慧農業. 版權所有</p>
+    </footer>
+</body>
+</html>
